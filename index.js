@@ -50,7 +50,8 @@ const [r, o, y, g, b, , v] = colors;
 console.log(b);
 console.log(v);
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg.
-
+const [, , , , , indg, ,] = colors;
+console.log(indg);
 // Objects
 
 // 7. Use destructuring to assign all variables using the keys as the variable names
