@@ -29,9 +29,11 @@ const nestedMuppet = {
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
 
-const { moo, neigh, baa, oink, cluck } = farmAnimals;
+const [moo, neigh, baa, oink, cluck] = farmAnimals.split(" ");
 
-console.log(moo);
+console.log(moo, neigh);
+
+console.log("==========================");
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
 
