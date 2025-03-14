@@ -32,17 +32,19 @@ const [moo, neigh, baa, oink, cluck] = farmAnimals.split(" ");
 console.log(moo, neigh);
 
 console.log("==========================");
-
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
-
 const [bessie, , dolly, babe, little] = farmAnimals.split(" ");
 
 console.log(bessie, little);
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of blackAndWhite, black, and pink.
 
+console.log("========================== here beloowww");
+const [blackAndWhite, , black, pink] = farmAnimals.split(" ");
+console.log(blackAndWhite, pink);
 // Arrays
 
 // 4. Use destructuring to assign appropriate variables using the color names.
+console.log("==========================");
 
 const [red, orange, yellow, green, blue, indigo, violet] = colors;
 
